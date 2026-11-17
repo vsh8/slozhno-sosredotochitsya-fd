@@ -13,11 +13,11 @@
   --background-color: #fff1f7;
   --text-color: #353430;
   --accent-color: #ff8dcb;
-  --decoration-color: var(--text-color);
+  --decoration-color: var(--text-color, #353430);
   --theme-menu-hover-border-color: rgb(53 52 48 / 40%);
   --title-text-color: #ffc2e6;
-  --section-title-text-color: var(--text-color);
-  --title-decor-text-color: var(--text-color);
+  --section-title-text-color: var(--text-color, #353430);
+  --title-decor-text-color: var(--text-color, #353430);
   --footer-title-shadow-color: #ff0070;
   --rec-display: none;
 
@@ -30,11 +30,11 @@
     --background-color: #fff1f7;
     --text-color: #353430;
     --accent-color: #ff8dcb;
-    --decoration-color: var(--text-color);
+    --decoration-color: var(--text-color, #353430);
     --theme-menu-hover-border-color: rgb(53 52 48 / 40%);
     --title-text-color: #ffc2e6;
-    --section-title-text-color: var(--text-color);
-    --title-decor-text-color: var(--text-color);
+    --section-title-text-color: var(--text-color, #353430);
+    --title-decor-text-color: var(--text-color, #353430);
     --footer-title-shadow-color: #ff0070;
     --rec-display: none;
 

@@ -13,12 +13,12 @@
   --background-color: #000028;
   --text-color: #f1b2ce;
   --accent-color: #ff0070;
-  --decoration-color: var(--accent-color);
+  --decoration-color: var(--accent-color, #ff0070);
   --theme-menu-hover-border-color: rgb(255 0 112 / 40%);
   --title-text-color: #db00ff;
-  --section-title-text-color: var(--accent-color);
-  --title-decor-text-color: var(--background-color);
-  --footer-title-shadow-color: var(--accent-color);
+  --section-title-text-color: var(--accent-color, #ff0070);
+  --title-decor-text-color: var(--background-color, #000028);
+  --footer-title-shadow-color: var(--accent-color, #ff0070);
   --rec-display: flex;
 
   color-scheme: dark;
