@@ -6,8 +6,13 @@
 :root {
   --background-image: url("../images/cover-image-dark.png");
   --background-color: #000028;
-  --font-color: #f1b2ce;
+  --text-color: #f1b2ce;
   --accent-color: #ff0070;
-  --accent-transparent-color: rgb(255, 0, 112, 0.4);
-  --title-color: #db00ff;
+  --decoration-color: var(--accent-color);
+  --theme-menu-hover-border-color: rgb(255 0 112 / 40%);
+  --title-text-color: #db00ff;
+  --section-title-text-color: var(--accent-color);
+  --title-decor-text-color: var(--background-color);
+  --footer-title-shadow-color: var(--accent-color);
+  --rec-display: flex;
 }
